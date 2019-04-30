@@ -2,15 +2,22 @@
 
 .DS_Store
 /**/.DS_Store
+
+# Node modules
+
 /node_modules
 /**/node_modules
 **/**/node_modules
-/Teoria plataforma
 
 # Clases to ignore
+<<<<<<< HEAD
 /Clase 04/Profe/Ejercicio
 /Clase 04/Profe/Desafío
 /Clase 05
+=======
+/Clase 05/Profe/Ejercicio
+/Clase 05/Profe/Desafío
+>>>>>>> 8d6587910bfa9237e808a917a549344b70540874
 /Clase 06
 /Clase 07
 /Clase 08
