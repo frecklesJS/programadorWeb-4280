@@ -1,22 +1,22 @@
-// var $name
+var $name
 
-// var _name
+var _name
 
-// var name1
+var name1
 
-// var firstName
+var firstName
 
-// var numberOfRows
+var numberOfRows
 
-// var checkImport
+var checkImport
 
-// checkImport = 'Me importe bien!'
+checkImport = 'Me importe bien!'
 
-// console.log(checkImport)
+console.log(checkImport)
 
-// checkImport = 'Soy un nuevo mensaje'
+checkImport = 'Soy un nuevo mensaje'
 
-// console.log(checkImport)
+console.log(checkImport)
 
 /* 
 
@@ -24,21 +24,21 @@ hgkhgjhg
 kgkhgjhg
 */
 
-// Comentario
+// Comentario //
 
-// var ageOfTheUser = prompt('¿Cual es tu edad?', '25')
+var ageOfTheUser = prompt('¿Cual es tu edad?', '25')
 
-// console.log('Tu edad ' + ageOfTheUser)
+console.log('Tu edad ' + ageOfTheUser)
 
-// Mini ejercicio
+// Mini ejercicio // 
 
-// var name = prompt('Cuál es tu nombre?')
+var name = prompt('Cuál es tu nombre?')
 
-// var message = 'Hola ' + name
+var message = 'Hola ' + name
 
-// console.log(message)
+console.log(message)
 
-// Tipos de valores
+// Tipos de valores //
 
 // String
 
@@ -52,61 +52,59 @@ kgkhgjhg
 
 // Undefined
 
-// var newVar
+var newVar
 
-// console.log(newVar)
+console.log(newVar)
 
 // null
 
-// var noValue = 'Hola'
+var noValue = 'Hola'
+noValue = null
+console.log(noValue)
 
-// noValue = null
+// Number // 
 
-// console.log(noValue)
+var number = -1231
 
-// Number
+var number1 = 0
 
-// var number = -1231
+var number2 = 3.1416
 
-// var number1 = 0
+// Operaciones // 
 
-// var number2 = 3.1416
+var dolarToday = 43.4
 
-// Operaciones
+var dolarOnWallet = prompt('Cuanto tenés hoy')
 
-// var dolarToday = 43.4
+var pesosOnWallet = dolarToday * dolarOnWallet
 
-// var dolarOnWallet = prompt('Cuanto tenés hoy')
+console.log(pesosOnWallet)
 
-// var pesosOnWallet = dolarToday * dolarOnWallet
+var product1 = prompt('Ingresá precio leche')
 
-// console.log(pesosOnWallet)
+var product2 = prompt('Ingresá precio Zucaritas')
 
-// var product1 = prompt('Ingresá precio leche')
+var parsedProduct1 = parseFloat(product1, 10)
 
-// var product2 = prompt('Ingresá precio Zucaritas')
+var parsedProduct2 = parseFloat(product2, 10)
 
-// var parsedProduct1 = parseFloat(product1, 10)
+var total = parsedProduct1 + parsedProduct2
 
-// var parsedProduct2 = parseFloat(product2, 10)
+console.log(total)
 
-// var total = parsedProduct1 + parsedProduct2
+var division = 18000 / 0
 
-// console.log(total)
+console.log(division)
 
-// var division = 18000 / 0
+console.log(2 - 5)
 
-// console.log(division)
+// Boleano // 
 
-// console.log(2 - 5)
+var booleanValue1 = true
 
-// Boleano
+var booleanValue2 = false
 
-// var booleanValue1 = true
-
-// var booleanValue2 = false
-
-// console.log(booleanValue1, booleanValue2)
+console.log(booleanValue1, booleanValue2)
 
 var number1 = prompt('Ingresá un numero')
 

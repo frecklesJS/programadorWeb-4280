@@ -1,51 +1,51 @@
 console.log('Es mi idola! By Undi')
 
-// var mainTitle = document.getElementById('main-title')
+var mainTitle = document.getElementById('main-title')
 
-// console.log(mainTitle)
+console.log(mainTitle)
 
-// var firstName = prompt('Ingresá tu nombre')
+var firstName = prompt('Ingresá tu nombre')
 
-// console.log(mainTitle.innerHTML)
+console.log(mainTitle.innerHTML)
 
-// var mainParagraph = document.getElementById('main-paragraph')
+var mainParagraph = document.getElementById('main-paragraph')
 
-// mainParagraph.innerHTML = prompt('Ingresá tu texto')
+mainParagraph.innerHTML = prompt('Ingresá tu texto')
 
-// var user = {
-//   firstName: 'Juan',
-//   age: 30
-// }
+var user = {
+  firstName: 'Juan',
+  age: 30
+}
 
-// user.firstName = 'Pedro'
+user.firstName = 'Pedro'
 
-// console.log(user)
+console.log(user)
 
-// var mainDiv = document.getElementById('main-div')
+var mainDiv = document.getElementById('main-div')
 
-// setTimeout(function () {
-//   console.log(mainDiv)
-// }, 3000)
+setTimeout(function () {
+  console.log(mainDiv)
+}, 3000)
 
-// mainDiv.innerHTML = '<h2>Pato</h2>'
+mainDiv.innerHTML = '<h2>Pato</h2>'
 
-// var oldTitle = document.getElementById('old-title')
+var oldTitle = document.getElementById('old-title')
 
-// var newTitle = prompt('Ingresá un nuevo título')
+var newTitle = prompt('Ingresá un nuevo título')
 
-// oldTitle.innerHTML = newTitle
+oldTitle.innerHTML = newTitle
 
-// var orsonFarm = document.getElementsByClassName('orson-farm')
+var orsonFarm = document.getElementsByClassName('orson-farm')
 
-// console.log(orsonFarm)
+console.log(orsonFarm)
 
-// for (var i = 0; i < orsonFarm.length; i++) {
-//   var animal = orsonFarm[i]
+for (var i = 0; i < orsonFarm.length; i++) {
+  var animal = orsonFarm[i]
 
-//   animal.id = i
+  animal.id = i
 
-//   animal.innerHTML = 'Roy'
-// }
+  animal.innerHTML = 'Roy'
+}
 
 // Busca el nodo con id farm-list
 var farmList = document.getElementById('farm-list')
@@ -71,11 +71,11 @@ for (var i = 0; i < animals.length; i++) {
   farmList.appendChild(li)
 }
 
-// var index = prompt('Ingrese el elento a remover')
+var index = prompt('Ingrese el elento a remover')
 
 // // Busco el elemento en el DOM, haciendo una traducción de lo que ingresó
 // // el usuario a un indice de JavaScript
-// var elementToRemove = document.getElementById('farm-list-' + (index - 1))
+var elementToRemove = document.getElementById('farm-list-' + (index - 1))
 
 // // Le pido al padre que lo remueva
-// elementToRemove.parentNode.removeChild(elementToRemove)
+elementToRemove.parentNode.removeChild(elementToRemove)

@@ -1,52 +1,52 @@
 console.log('Init app')
 
-// var isRaining = false
+  / var isRaining = false
 
-// if (isRaining) {
-//   console.log('Llevo paraguas')
-// } else {
-//   console.log('NO llevo paraguas')
-// }
+if (isRaining) {
+  console.log('Llevo paraguas')
+} else {
+  console.log('NO llevo paraguas')
+}
 
-// var age = prompt('Ingresá tu edad')
+var age = prompt('Ingresá tu edad')
 
-// if (age > 18) {
-//   console.log('Podés comprar un vinito')
-// } else {
-//   console.log('No, podés comprar un vinito')
-// }
+if (age > 18) {
+  console.log('Podés comprar un vinito')
+} else {
+  console.log('No, podés comprar un vinito')
+}
 
-// var password = prompt('Ingresá tu contraseña')
+var password = prompt('Ingresá tu contraseña')
 
-// if (password === 1234) {
-//   console.log('Contraseña correcta')
-// } else {
-//   console.log('Contraseña incorrecta')
-// }
+if (password === 1234) {
+  console.log('Contraseña correcta')
+} else {
+  console.log('Contraseña incorrecta')
+}
 
-// var userName = prompt('Ingresa tu usuario')
+var userName = prompt('Ingresa tu usuario')
 
-// if (userName !== 'adrian@getsirena.com') {
-//   console.log('Usuario incorrecto')
-// }
+if (userName !== 'adrian@getsirena.com') {
+  console.log('Usuario incorrecto')
+}
 
-// var ariPlaneMode = undefined // false
+var ariPlaneMode = undefined  false
 
-// if (!ariPlaneMode) {
-//   console.log('Buscando redes')
-// }
+if (!ariPlaneMode) {
+  console.log('Buscando redes')
+}
 
-// console.log(ariPlaneMode)
+console.log(ariPlaneMode)
 
-// var value = 5
+var value = 5
 
-// var result = value % 2
+var result = value % 2
 
-// console.log(result) // 0.1
+console.log(result)  0.1
 
-// var number2 = prompt('Ingresá un número')
+var number2 = prompt('Ingresá un número')
 
-// console.log(number2 % 3)
+console.log(number2 % 3)
 
 // Si da cero es multiple
 
@@ -54,109 +54,109 @@ console.log('Init app')
 
 // JS entiende el 0 como falso y cualquier otro número como verdadero
 
-// if (!(number2 % 3)) {
-//   console.log('El número es multiplo de tres')
-// }
+if (!(number2 % 3)) {
+  console.log('El número es multiplo de tres')
+}
 
-// var number = prompt('Ingresá un número')
+var number = prompt('Ingresá un número')
 
-// if (!(number % 2)) {
-//   console.log('Es par')
-// } else {
-//   console.log('No es par')
-// }
+if (!(number % 2)) {
+  console.log('Es par')
+} else {
+  console.log('No es par')
+}
 
-// && AND
+// && AND // 
 
-// var number1 = prompt('Ingresá un número')
+var number1 = prompt('Ingresá un número')
 
-// if (number1 >= 5 && number1 <= 25) {
-//   console.log('El valor está entre 5 y 25')
-// }
+if (number1 >= 5 && number1 <= 25) {
+  console.log('El valor está entre 5 y 25')
+}
 
-// var userName = prompt('Ingresá tú usuario')
+var userName = prompt('Ingresá tú usuario')
 
-// var password = prompt('Ingresá tñu contraseña')
+var password = prompt('Ingresá tñu contraseña')
 
-// if (userName === 'adrian@getsirena.com' && password === '1234') {
-//   console.log('Ingresá al sitio')
-// }
+if (userName === 'adrian@getsirena.com' && password === '1234') {
+  console.log('Ingresá al sitio')
+}
 
-// var color = prompt('Ingresé un color')
+var color = prompt('Ingresé un color')
 
-// if (color === 'red' || color === 'white' && color === 'black') {
-//   console.log('Alguno de los colores de River')
-// }
+if (color === 'red' || color === 'white' && color === 'black') {
+  console.log('Alguno de los colores de River')
+}
 
-// var color = prompt('Ingresé un color')
+var color = prompt('Ingresé un color')
 
-// switch (color) {
-//   case 'red':
-//     console.log('Rojo')
-//     break
+switch (color) {
+  case 'red':
+    console.log('Rojo')
+    break
 
-//   case 'white':
-//     console.log('Blanco')
-//     break
+  case 'white':
+    console.log('Blanco')
+    break
 
-//   case 'blue':
-//     console.log('Azul')
-//     break
+  case 'blue':
+    console.log('Azul')
+    break
 
-//   default:
-//     console.log('Ingresó un color invalido')
-//     break
-// }
+  default:
+    console.log('Ingresó un color invalido')
+    break
+}
 
-// var color = prompt('Ingresé un color')
+var color = prompt('Ingresé un color')
 
-// switch (color) {
-//   case 'red':
-//   case 'blue':
-//     console.log('Es un color oscuro')
-//     console.log('Y es lindo')
-//     break
+switch (color) {
+  case 'red':
+  case 'blue':
+    console.log('Es un color oscuro')
+    console.log('Y es lindo')
+    break
 
-//   case 'yellow':
-//   case 'rose':
-//   case 'white':
-//     console.log('Es un color claro')
-//     break
+  case 'yellow':
+  case 'rose':
+  case 'white':
+    console.log('Es un color claro')
+    break
 
-//   default:
-//     console.log('Ingresó un color invalido')
-//     break
-// }
+  default:
+    console.log('Ingresó un color invalido')
+    break
+}
 
-// var userName
+var userName
 
-// var name1 = 'Pedro'
+var name1 = 'Pedro'
 
-// var name2 = 'Juan'
+var name2 = 'Juan'
 
-// var message = 'Hola '
+var message = 'Hola '
 
-// if (name1) {
-//   message = message + name1 + ' y '
-// }
+if (name1) {
+  message = message + name1 + ' y '
+}
 
-// if (name2) {
-//   message = message + name2
-// }
+if (name2) {
+  message = message + name2
+}
 
-// console.log(message)
+console.log(message)
 
-// if (userName) {
-//   if (password) {
-//     console.log('Ingresó')
-//   } else {
-//     console.log('No hay contraseña')
-//   }
-// } else {
-//   console.log('No hay usuario')
-// }
+if (userName) {
+  if (password) {
+    console.log('Ingresó')
+  } else {
+    console.log('No hay contraseña')
+  }
+} else {
+  console.log('No hay usuario')
+}
 
-// var color = prompt('Ingresé un color')
+var color = prompt('Ingresé un color')
 
 var color = 'red'
 
