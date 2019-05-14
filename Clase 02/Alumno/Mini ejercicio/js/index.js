@@ -1,7 +1,9 @@
-var number = prompt('Dime un número')
+/*Pedirle mediante `prompt` al usuario que ingrese un número, si el número es par mostrar un mensaje en consola indicando que es par, si no mostrar un mensaje indicando que es impar.*/
 
-if (number % 2) {
-  console.log('Es un número par')
+var number = prompt('Digite un número')
+
+if (!(number % 2)) {
+  console.log('El número es par')
 } else {
-  console.log('Es un número impar')
+  console.log('El número es impar')
 }

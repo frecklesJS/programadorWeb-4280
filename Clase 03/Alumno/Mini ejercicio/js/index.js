@@ -1,9 +1,8 @@
 
-var password = prompt('Ingrese contraseña')
+var password
 
-while (password !== '1234') {
-  console.log(password)
+do {
   password = prompt('Ingresá contraseña')
-}
+} while (password !== '1234')
 
-console.log(password)
+console.log('Terminó')

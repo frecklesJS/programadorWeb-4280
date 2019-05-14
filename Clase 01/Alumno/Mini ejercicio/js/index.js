@@ -1,15 +1,6 @@
-//var name = prompt('Dime tu nombre')
-//console.log('Hola ' + name + '!')
+//Pido nombre mediante pormpt//
+var name = prompt('Dime tu nombre')
 
-var alumno = {
-  name: 'Marcela Lorena',
-  surname: 'Correa',
-  age: 40,
-  id: '27089148',
-  nacionalidad: 'argentina'
-}
+//Lo muestro en consola con saludo personalizado//
+console.log('Hola ' + name + '!')
 
-console.log(alumno)
-
-alumno.age
-alumno.id
