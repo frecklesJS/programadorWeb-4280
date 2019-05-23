@@ -60,13 +60,11 @@ function addStudent() {
   // Levanto los valores ya validados del form
   var firstNameValue = firstNameInput.value
   var dniValue = dniInput.value
-  var emailValue = emailInput.value
 
-  // Creo un objeto estudiante temporal//
+  // Creo un objeto estudiante temporal
   var student = {
     firstName: firstNameValue,
-    dni: dniValue,
-    email: emailValue
+    dni: dniValue
   }
 
   // Agrego el estudiante en memoria
@@ -84,7 +82,6 @@ function addStudent() {
   // Limpiamos el formulario, los valores en String vacío
   firstNameInput.value = ''
   dniInput.value = ''
-  emailInput.value = ''
 
   // Saco las clases validas
   firstNameInput.classList.remove('is-valid')
@@ -146,12 +143,12 @@ function validateRequired(event) {
   validateAddButton()
 }
 
-// Función para validar si todos los campos son validos y habilitar el botón
+// Función para validar ti todos los campos son validos y habilitar el botón
 function validateAddButton() {
   // Busco todos los campos válido
   var validInputs = document.getElementsByClassName('is-valid')
 
-  if (validInputs.length !== 3) {
+  if (validInputs.length !== 2) {
     addStudentButton.disabled = true
   } else {
     addStudentButton.disabled = false
@@ -256,29 +253,3 @@ function searchStudentIndexByDni(dni, studentsList) {
   }
   return index
 }
-
-
-//SEGUNDA PARTE//
-//Busco el campo email en el DOM//
-var emailInput = document.getElementById('email')
-
-//Respondo al evento blur con la función que valida el campo email//
-emailInput.onblur = validateRequired
-
-// Con el botón validado llamo a la función que agrega al estudiante//
-addStudentButton.onclick = addStudent
-
-//Función que busca alumno por coincidencias parciales en nombre y apellido//
-
-function searchStudentIndexByText(searchList, studentsList) {
-  var index = -1
-  for (var i = 0; i < studentsList.length; i++) {
-    var student = studentsList[i]
-    if (student.firstName === text || student.lastName === text) {
-      index = i
-      break
-    }
-  }
-  return student
-}
-
