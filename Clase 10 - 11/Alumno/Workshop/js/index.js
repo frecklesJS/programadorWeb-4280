@@ -89,6 +89,7 @@ function addStudent() {
   // Saco las clases validas
   firstNameInput.classList.remove('is-valid')
   dniInput.classList.remove('is-valid')
+  emailInput.classList.remove('is-valid')
 
   // Vuelvo a deshabilitar el botón
   addStudentButton.disabled = true
@@ -268,17 +269,4 @@ emailInput.onblur = validateRequired
 // Con el botón validado llamo a la función que agrega al estudiante//
 addStudentButton.onclick = addStudent
 
-//Función que busca alumno por coincidencias parciales en nombre y apellido//
-
-function searchStudentIndexByText(searchList, studentsList) {
-  var index = -1
-  for (var i = 0; i < studentsList.length; i++) {
-    var student = studentsList[i]
-    if (student.firstName === text || student.lastName === text) {
-      index = i
-      break
-    }
-  }
-  return student
-}
-
+//Función que busca al estudiante//
