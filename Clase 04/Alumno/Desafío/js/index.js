@@ -40,3 +40,18 @@ function searchStudentIndexByText(text, studentsList) {
   }
   return index
 }
+
+/* Pruebo que la función haga lo esperado */
+
+/* Pido el texto al usuario por Prompt */
+var text = prompt('Ingrese el nombre del alumno que desea buscar')
+
+/* Ejecuto la función */
+var index = searchStudentIndexByText(text, studentsList)
+
+/* Muestro mensaje en consola */
+if (index !== -1) {
+  console.log('El estudiante ha sido ecnontrado en la posición ' + index)
+} else {
+  console.log('No se ha podido encontrar el estudiante en la lista')
+}
