@@ -1,3 +1,7 @@
+/* # Eliminar un elemento del DOM */
+
+/* Usar la lista provista en el HTML para eliminar el elemento de la lista cuando el usuario presiona sobre el tacho de basura. */
+
 $(window).keydown(keyDownPress)
 
 var counter = 0
@@ -13,3 +17,4 @@ function keyDownPress(event) {
       console.log('Pausar video')
       break
   }
+}

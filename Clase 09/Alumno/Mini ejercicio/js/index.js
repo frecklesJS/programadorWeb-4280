@@ -1,5 +1,3 @@
-console.log('Llueve mucho!')
-
 var button = document.getElementById('button')
 
 var ageInput = document.getElementById('age')
